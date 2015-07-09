@@ -1,0 +1,128 @@
+"""
+a = [1,2,3]
+for elem in a:
+    print(elem*4)
+"""
+"""
+for i in 'hello class':
+    print('i')
+"""
+"""
+c = [6, ['h', True], '6']
+
+for elem in c:
+    if len(elem) > 1:
+        for elem1 in elem:
+    print(elem)
+
+a = []
+
+for i in range(1,10):
+    a.append(i)
+    print(a)
+
+
+a = []
+
+for i in range(1,10):
+    a.append(i)
+
+print(a[2])
+
+
+
+a = ['a', True]
+s = 'asd'
+
+a.extend(s)
+print(a)
+
+a.append(s)
+print(a)
+
+
+a = ['a', True]
+s = 'asd'
+
+a.extend(s)
+print(a)
+
+a.append(s)
+print(a)
+
+"""
+#print('hello %s, you are great %s!!') % ('f', 'hi')
+"""
+l = [1, 2, 3]
+
+l.remove(1)
+print(l)
+"""
+"""
+l = [1, 2, 3]
+
+a = l.pop(0)
+
+print(l)
+print(a)
+"""
+"""
+a = [1, 2, 3, 10, 3]
+
+a.sort()
+
+print(a)
+"""
+"""
+def count():
+    b = range(1, 10)
+    for i in b:
+        print (elem*2)
+
+"""
+"""
+lOne = []
+l = range(1,10)
+
+for i in range(len(l)):
+    tem = l[i]*2
+    print tem
+    lOne.append(tem)
+
+lOne.reverse()
+while 4 in lOne:
+    lOne.remove(4)
+del lOne[3]
+
+lOne.sort()
+lOne.append("andrei")
+print lOne
+
+
+
+
+
+
+s = 'hello, world!,d d'
+
+l = s.split(',')
+print(l)
+
+s = 'hello, world!,d d'
+
+l = s.split(',')
+print(l)
+"""
+
+
+l = ['1', '2', '3']
+
+print('ffff'.join(l))
+
+
+
+
+
+
+
+
